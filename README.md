@@ -252,6 +252,8 @@ Nasledne mozte csv subor nahrat cez https://www.gpsvisualizer.com/ a dat priamo 
 
 <img  src="/images/googleearth.png">
 
+Different side:
+
 <img  src="/images/googleearth2.png">
  
 
