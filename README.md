@@ -5,16 +5,24 @@ Povodny portal zial nie je fukcny. Obsahoval aj priamu moznost exportovania gps 
 https://kataster.skgeodesy.sk/GisPortal45/?lang=sk
 
 
+## Bratislavsky hrad
 Pre ukazku pouzijeme bratislavsky hrad https://kataster.skgeodesy.sk/GisPortal45/?lang=sk#/parcelsc(740739204)/detail?highlight=true .
 <img title="hrad" alt="hrad" src="/images/hrad.png">
 
 
-
+## Developer mod
 Stranku potom rozklikneme a zobrazime, si ju v developer mode.
 <img title="hrad vyber" alt="hrad vyber" src="/images/vyber.png">
 
 
-Nasledne si ulozime ring premenu do suboru json:
+## Ulozenie dat z pravej casti do suboru - rings premenej   
+
+Tvar:
+```
+{ "rings": [ [],[] ] }
+```
+
+### Nasledne si ulozime ring premenu do suboru json:
 ```
 {
                 "rings": [
