@@ -216,5 +216,5 @@ Na stranke https://www.google.com/maps/d/ klineme vytvorit novu mapu. Nasledne k
 <img  src="/images/ot2.png">
 
 ## Vysledok na google mapach
-<img  src="/images/ot3.png">
+<img  src="/images/ot4.png">
 
