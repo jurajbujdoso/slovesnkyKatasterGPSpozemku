@@ -222,3 +222,17 @@ Na stranke https://www.google.com/maps/d/ klineme vytvorit novu mapu. Nasledne k
 ## Vysledok na google mapach
 <img  src="/images/ot4.png">
 
+## Zobrazenie vysledku
+Aktuálna konverzia používa polomer Zeme 6378137.0 metrov a výsledky zaokrúhľuje na 6 desatinných miest, čo je v prípade geografických súradníc približne takáto presnosť:
+```
+1 desatinné miesto: približne 10 km
+2 desatinné miesta: približne 1 km
+3 desatinné miesta: približne 100 m
+4 desatinné miesta: približne 10 m
+5 desatinných miest: približne 1 m
+6 desatinných miest: približne 10 cm
+7 desatinných miest: približne 1 cm
+```
+
+<img  src="/images/namape.png">
+Na obrazku vidno, ze GPS suradnice su hore posunut oproti stene hradu o cca 5m.
