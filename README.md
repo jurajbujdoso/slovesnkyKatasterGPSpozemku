@@ -185,8 +185,11 @@ Tvar:
 ```
 python3 katasterKonverzia.py ./ring.json >vystup.csv
 ```
+program konvertuje súradnice z Web Mercator na WGS84 pouzitelne pre GPS zobrazenie.
 
-Nasledny vystup ma format csv a da sa hned pouzit napr do google maps:
+
+
+Nasledny vystup ma format csv a da sa pouzit napr do google maps:
 ```
 Latitude,Longitude,Name
 48.142677, 17.099634, P0Bod1
@@ -199,8 +202,9 @@ Latitude,Longitude,Name
 
 Format:
 ```
-Px-Poloygon x
-Bodx-Bod x polygonu
+PzBodX
+Pz-Poloygon z 
+Bodx-Bod x polygonu (z)
 ```
 
 # Import do googlu
