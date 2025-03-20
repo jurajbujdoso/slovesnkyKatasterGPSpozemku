@@ -249,6 +249,9 @@ Nasledne mozte csv subor nahrat cez https://www.gpsvisualizer.com/ a dat priamo 
 
 
 #### GoogleEarth po exporte do kmz na stranke GpsVisualizer
+
 <img  src="/images/googleearth.png">
+
+<img  src="/images/googleearth2.png">
  
 
