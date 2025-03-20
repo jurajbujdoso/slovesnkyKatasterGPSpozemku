@@ -238,5 +238,17 @@ Aktuálna konverzia používa polomer Zeme 6378137.0 metrov a výsledky zaokrúh
 Na obrazku vidno, ze GPS suradnice su hore posunut oproti stene hradu o cca 5m.
 
 
+
 <img  src="/images/1mposuv.png">
 Dole posun o 1m
+
+#### GpsVisualizer
+<img  src="/images/gpsvisualizer.png">
+Zobrazenie 2d pomocou GPSvisualizer, kde je vsetko 2d a nie je ziadne skreslenie. Bratislavsky hrad ma vysku cca 30m, co sa tiez premiate do satelitnych snimkov.
+Nasledne mozte csv subor nahrat cez https://www.gpsvisualizer.com/ a dat priamo zobrazit ako na obrazku hore.
+
+
+#### GoogleEarth po exporte do kmz na stranke GpsVisualizer
+<img  src="/images/googleearth.png">
+ 
+
