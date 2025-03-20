@@ -236,3 +236,7 @@ Aktuálna konverzia používa polomer Zeme 6378137.0 metrov a výsledky zaokrúh
 
 <img  src="/images/namape.png">
 Na obrazku vidno, ze GPS suradnice su hore posunut oproti stene hradu o cca 5m.
+
+
+<img  src="/images/1mposuv.png">
+Dole posun o 1m
