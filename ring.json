@@ -1,21 +1,3 @@
-# Ako ziskat GPS suradnice vasho pozemku z Kataster portalu
-Povodny portal zial nie je fukcny. Obsahoval aj priamu moznost exportovania gps suradnic. Toto je workaround :)
-
-## Najst pozemok na web stranke
-https://kataster.skgeodesy.sk/GisPortal45/?lang=sk
-
-
-Pre ukazku pouzijeme bratislavsky hrad https://kataster.skgeodesy.sk/GisPortal45/?lang=sk#/parcelsc(740739204)/detail?highlight=true .
-<img title="hrad" alt="hrad" src="/images/hrad.png">
-
-
-
-Stranku potom rozklikneme a zobrazime, si ju v developer mode.
-<img title="hrad vyber" alt="hrad vyber" src="/images/vyber.png">
-
-
-Nasledne si ulozime ring premenu do suboru json:
-```
 {
                 "rings": [
                     [
@@ -170,43 +152,4 @@ Nasledne si ulozime ring premenu do suboru json:
                     ]
                 ]
             }
-```
-
-
-# Konverzia
-```
-python3 katasterKonverzia.py ./ring.json >vystup.csv
-```
-
-Nasledny vystup ma format csv a da sa hned pouzit napr do google maps:
-```
-Latitude,Longitude,Name
-48.142677, 17.099634, P0Bod1
-48.142677, 17.099635, P0Bod2
-48.142630, 17.099910, P0Bod3
-48.142584, 17.100181, P0Bod4
-48.142561, 17.100323, P0Bod5
-...
-```
-
-Format:
-```
-Px-Poloygon x
-Bodx-Bod x polygonu
-```
-
-# Import do googlu
-
-Na stranke https://www.google.com/maps/d/ klineme vytvorit novu mapu. Nasledne klikneme importovat vrstvu, posleme skonvertovany subor vystup.csv.
-
-
-## import cast 1
-<img  src="/images/ot1.png">
-
-
-## import cast 2 
-<img  src="/images/ot2.png">
-
-## Vysledok na google mapach
-<img  src="/images/ot3.png">
 
